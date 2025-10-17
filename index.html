@@ -56,8 +56,8 @@
 
 <body>
 
-	<div> <!-- start of header-->
-		<header>
+	<header> <!-- start of header-->
+		<div>
 				<div class="app-bar">
 			<div class="container">
 				<div class="row">
@@ -68,33 +68,32 @@
 				</div>
 			</div>
 		</div>
-
-
-		<div id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl"
-			class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited"
-			typeof="SiteNavigationElement">
-			<div class="pnl-strt container nvbar">
-				<h2>Topics menu</h2>
-				<div class="row">
-					<ul role="menubar" class="list-inline menu">
-						<li><a class="item" href="index-en.html" tabindex="0" aria-posinset="1" aria-setsize="7"
-								role="menuitem">Home</a></li>
-						<li><a class="item" href="internet-en.html" tabindex="-1" aria-posinset="2" aria-setsize="7"
-								role="menuitem">Buying</a></li>
-						<li><a class="item" href="intranet-en.html" tabindex="-1" aria-posinset="3" aria-setsize="7"
-								role="menuitem">Selling</a></li>
-						<li><a class="item" href="faq-en.html" tabindex="-1" aria-posinset="6" aria-setsize="7"
-								role="menuitem">FAQs</a></li>
-						<li><a class="item" href="contact-en.html" tabindex="-1" aria-posinset="7" aria-setsize="7"
-								role="menuitem">Contact us</a></li>
-					</ul>
+		<nav>
+			<div id="wb-sm" data-ajax-replace="../ajax/cdtsMenu-en.html" data-trgt="mb-pnl"
+				class="wb-menu visible-md visible-lg wb-init wb-data-ajax-replace-inited wb-menu-inited wb-navcurr-inited"
+				typeof="SiteNavigationElement">
+				<div class="pnl-strt container nvbar">
+					<h2>Topics menu</h2>
+					<div class="row">
+						<ul role="menubar" class="list-inline menu">
+							<li><a class="item" href="index-en.html" tabindex="0" aria-posinset="1" aria-setsize="7"
+									role="menuitem">Home</a></li>
+							<li><a class="item" href="internet-en.html" tabindex="-1" aria-posinset="2" aria-setsize="7"
+									role="menuitem">Buying</a></li>
+							<li><a class="item" href="intranet-en.html" tabindex="-1" aria-posinset="3" aria-setsize="7"
+									role="menuitem">Selling</a></li>
+							<li><a class="item" href="faq-en.html" tabindex="-1" aria-posinset="6" aria-setsize="7"
+									role="menuitem">FAQs</a></li>
+							<li><a class="item" href="contact-en.html" tabindex="-1" aria-posinset="7" aria-setsize="7"
+									role="menuitem">Contact us</a></li>
+						</ul>
+					</div>
 				</div>
-			</div>
 
 
-		</div> <!-- end of main navigation-->
-		</header>
-	</div> <!-- end of header-->
+			</div> <!-- end of main navigation-->
+		</nav>
+	</header> <!-- end of header-->
 
 	<main property="mainContentOfPage" class="container">
 		<h1>Welcome</h1>
@@ -109,7 +108,7 @@
 					<h2>Why choosing HI/Max </h2>
 					<p>Hi/Max agents go above and beyond and always strive to be the best they can be. HI/MAX is extremely community focused, and our agents are too! </p>
 					<table>
-						<caption>Stats of Hi/Max</caption>
+						<caption><h3>Stats of Hi/Max</h3></caption>
 						<tr>
 							<th rowspan="2" id="y" class="l1">Year</th>
 							<th colspan="2" id="sp" class="l1">Sold Properties</th>
@@ -183,7 +182,6 @@
 				<dd><time property="dateModified">2025-10-17</time></dd>
 			</dl>
 		</div>
-
 
 	</main>
 	<footer>
